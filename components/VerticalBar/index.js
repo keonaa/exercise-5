@@ -59,7 +59,9 @@ export default function VerticalBar(){
 
     return(
         <>
-            <Bar data={chartData} options={chartOptions}/>
+            <div>
+                <Bar data={chartData} options={chartOptions}/>
+            </div>
         </>
     )
 }

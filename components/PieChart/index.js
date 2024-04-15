@@ -69,7 +69,9 @@ export default function PieChart(){
 
     return(
         <>
-            <Pie data={chartData} options={chartOptions}/>
+            <div>
+                <Pie data={chartData} options={chartOptions}/>
+            </div>
         </>
     )
 }

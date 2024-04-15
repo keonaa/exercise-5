@@ -74,7 +74,9 @@ export default function HorizontalChart(){
 
     return(
         <>
+        <div>
             <Bar data={chartData} options={chartOptions}/>
+        </div>
         </>
     )
 }
